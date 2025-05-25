@@ -28,6 +28,7 @@
 
     <source-file src="src/android/QRScanner.java" target-dir="src/com/bitpay/cordova/qrscanner"/>
     <framework src="src/android/qrscanner.gradle" custom="true" type="gradleReference"/>
+    <framework src="com.huawei.hms:scanplus:2.10.0.301" />
   </platform>
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
